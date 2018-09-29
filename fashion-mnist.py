@@ -20,6 +20,7 @@ from keras.callbacks import ModelCheckpoint, TensorBoard, ReduceLROnPlateau
 from keras import optimizers as opt
 
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
+#one-hot encode labels
 train_labels, test_labels = to_categorical(train_labels, num_classes=10), to_categorical(test_labels, num_classes=10)
 valid_split = 0.1
 
@@ -32,7 +33,7 @@ test_images = test_images.astype('float32') / 255
 
 print("Dataset Stats")
 print("Training images shape: {}".format(train_images.shape))
-print("There are {} training images, {} testing images, and the validation split is {}% of training data".format(len(train_images), len(test_images), valid_split*100))
+print("There are {} training images, {} testing images, and the validation split is {}% of training data, which is {} images.".format(len(train_images), len(test_images), valid_split*100, len(train_images)*valid_split))
 
 #build model
 cnn = Sequential()
