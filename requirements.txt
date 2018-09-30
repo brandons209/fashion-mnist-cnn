@@ -1,0 +1,13 @@
+# Requirements
+
+Keras == 2.2.2
+
+tensorflow == 1.10
+
+tensorboard == 1.10
+
+numpy == 1.14.5
+
+Keras == 2.2.2
+
+matplotlib == 3.0.0
