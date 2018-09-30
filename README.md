@@ -1,7 +1,7 @@
 # Fashion MNIST CNN
 ## CNN trained on the Fashion MNIST data set
 ***
-The Fashion MNIST data set contains 60,000 training images and 10,000 testing images of 10 different kinds of clothing. It is like the MNIST data set, with pictures 28x28 pixels and 10 classes. This data set is becoming the new standard for testing and teaching people about neural networks.
+The Fashion MNIST data set contains 60,000 training images and 10,000 testing images of 10 different kinds of clothing. It is like the MNIST data set, with pictures 28x28 pixels and 10 classes. This data set is becoming the new standard for testing and teaching people about neural networks.    
 [LICENSE](LICENSE)
 ***
 ### Libraries
